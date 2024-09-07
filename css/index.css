@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.sec1{
+    padding: 120px 0;
+}
+.sec1-header{
+    margin-bottom: 50px;
+}
+.sec1-header h3{
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 35px;
+     margin-bottom: 12px;
+}
+.sec1-header div{
+    width: 80px;
+    height: 5px;
+    background-color:#6195ff ;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.sec1-container{
+    width: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+
+}
+.sec1-parent{
+    overflow: auto;
+}
+.sec1-item{
+    width: 30%;
+    float: left;
+    /* background-color: aqua; */
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    /* padding: 50px 20px 50px 70px; */
+}
+.sec1-item:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.9;
+    transition: 1s;
+}
+.sec1-item:hover::after{
+    width: 100%;
+    height: 100%;
+   
+    z-index: -1;
+}
+.sec1-item:hover .sec1-info h3{
+    color: white;
+}
+
+.hh{
+ margin:0px 4% ;
+}
+.sec1-info{
+    text-align: center;
+    padding: 40px 20px 50px 40px;
+}
+
+.sec1-info i{
+    color: #6195ff;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    margin-bottom: 10px;
+  
+}
+.sec1-info h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.sec1-info p{
+    font-family: 'Varela Round', sans-serif;
+    color: #999;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.sec1-info a{
+    color: #6195ff;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.sec2{
+   padding: 120px 0;
+    background-color: #f9f9f9;
+    overflow: auto;
+}
+
+
+.sec2-left{
+    width: 50%;
+    float: left;
+   
+}
+.left-header{
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+}
+ .left-header h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: left;
+
+
+}
+.sec2-left-info p{
+    padding-left: 150px;
+    color: #999;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+.sec2-left-info ul{
+    list-style-type: none;
+    /* background-color: #6195ff; */
+}
+.sec2-left-info ul li{
+    color: #999;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    /* background-color: #6195ff; */
+}
+.sec2-left-info ul li i{
+    background-color: #6195ff;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 7px 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+
+.left-header div{
+    width: 80px;
+    height: 5px;
+    background-color:#6195ff ;
+    /* margin: auto; */
+    margin-top: 10px;
+   
+
+}
+.sec2-right{
+    width: 50%;
+    float: right;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+
+.sec2-right-info {
+   width: 80%;
+    margin-right: 300px;
+  
+   
+}
+.sec2-right-info img{
+    width: 100%;
+}
+.sec2-right-ul{
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 200px;
+}
+.sec2-right-ul li{
+    margin-left: 8px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #999;
+    margin-bottom: 10px;
+}
+.sec2-right-ul .li1{
+    background-color: #6195ff;
+
+}
+.sec3{
+    background-image: url("../imgs/background2.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+
+}
+.sec3-container{
+    width: 80%;
+    margin: auto;
+}
+.sec3-parent{
+    overflow: auto;
+    /* padding-top:150px; */
+}
+.sec3-item{
+    width: 25%;
+    float: left;
+    margin-top: 125px;
+    text-align: center;
+}
+.sec3-info{
+    text-align: center;
+}
+.sec3-info i{
+    color: #6195ff;
+    margin-bottom: 15px;
+}
+.sec3-info h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+.sec3-info span{
+    color: white;
+}
+
